@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 180px;
+    border: 2px solid black;
+    padding: 10px 10px 0px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    transition: box-shadow 1s;
+    margin-right: 10px;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    padding: 0px 10px 0px 10px;
+}
+h3{
+    font-size: 18px;
+    padding: 0px 10px 0px 22px;
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+}
+div:hover{
+    box-shadow: 15px 15px 10px #888888;
+}
